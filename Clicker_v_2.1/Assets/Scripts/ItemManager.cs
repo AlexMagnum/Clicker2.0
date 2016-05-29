@@ -20,7 +20,7 @@ public class ItemManager : MonoBehaviour {
 	}
 
 	void Update(){
-		itemInfo.text = itemName + "(" + count + ")" + "\nCost: " + cost + "\nGold: " + tickValue + "/s";
+		itemInfo.text = itemName + "(" + count + ")" + "\nCost: " + cost + "\nDamage: " + tickValue + "/s";
 
 		_slider.value = click.gold / cost * 100; 
 

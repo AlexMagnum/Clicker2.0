@@ -66,6 +66,7 @@
     <Compile Include="Assets\Scripts\Click.cs" />
     <Compile Include="Assets\Scripts\CurrencyConverter.cs" />
     <Compile Include="Assets\Scripts\GoldPerSec.cs" />
+    <Compile Include="Assets\Scripts\HelthBar.cs" />
     <Compile Include="Assets\Scripts\ItemManager.cs" />
     <Compile Include="Assets\Scripts\UpgradeManager.cs" />
   </ItemGroup>

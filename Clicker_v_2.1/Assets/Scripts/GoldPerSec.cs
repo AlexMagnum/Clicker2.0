@@ -11,7 +11,7 @@ public class GoldPerSec : MonoBehaviour {
 	}
 
 	void Update(){
-		gpsDisplay.text = CurrencyConverter.Instance.GetCurrencyIntoString(GetGoldPerSec (), true, false) + " gold/sec"; 
+		gpsDisplay.text = CurrencyConverter.Instance.GetCurrencyIntoString(GetGoldPerSec (), true, false) + " DPS"; 
 	}
 
 	public float GetGoldPerSec(){
